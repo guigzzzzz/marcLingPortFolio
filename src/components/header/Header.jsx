@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './header.scss';
 import icon from '../../images/icon_globe.png';
 
 export default function Header() {
