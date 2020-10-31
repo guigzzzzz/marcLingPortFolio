@@ -1,28 +1,41 @@
-import React from "react";
-import "./header.css";
-import icon from "../../images/icon_globe.png";
+import React from 'react';
+import './header.css';
+import icon from '../../images/icon_globe.png';
 
 export default function Header() {
   return (
-    <div className="header_container">
-      <div className="header_card_container">
-        <p className="text_h1">Marc Lingg</p>
-        <img src={icon} alt="Marc Lingg" className="header_icon" />
-      </div>
-      <div className="info_container">
-        <p className="text_info">Rue des Arpenteurs, 6</p>
-        <div className="line_container">
-          <p className="text_info">Paris, 18e</p>
-          <p className="text_info">75001</p>
+    <div id='header-container'>
+      <div id='header-visit-card'>
+        <h1 id='header-title'>Marc Lingg</h1>
+
+        <div className='info-container'>
+          <p className='text-info'>Rue des Arpenteurs, 6</p>
+
+          <div className='line-container'>
+            <p className='text-info'>Paris, 18e</p>
+            <p className='text-info'>75001</p>
+          </div>
+
+          <div className='line-container'>
+            <p className='text-info'>Mail</p>
+            <span className='text-info-line'></span>
+            <p className='text-info'>Phone</p>
+          </div>
+
+          <div className='line-container justified'>
+            <a
+              href='https://www.instagram.com/marc.lingg/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-info'
+            >
+              Go to instagram
+            </a>
+          </div>
         </div>
-        <p className="text_info">marclingg@gmail.com</p>
-        <div className="line_container">
-          <p className="text_info">go to</p>
-          <a href="https://www.instagram.com/marc.lingg/" className="link">
-            Instagram
-          </a>
-        </div>
       </div>
+
+      <img src={icon} alt='Marc Lingg' id='header-icon' />
     </div>
   );
 }
