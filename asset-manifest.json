@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/marcLingPortFolio/static/css/main.4ea2e134.chunk.css",
+    "main.js": "/marcLingPortFolio/static/js/main.319b423f.chunk.js",
+    "main.js.map": "/marcLingPortFolio/static/js/main.319b423f.chunk.js.map",
+    "runtime-main.js": "/marcLingPortFolio/static/js/runtime-main.f630245b.js",
+    "runtime-main.js.map": "/marcLingPortFolio/static/js/runtime-main.f630245b.js.map",
+    "static/js/2.c5f7e3a8.chunk.js": "/marcLingPortFolio/static/js/2.c5f7e3a8.chunk.js",
+    "static/js/2.c5f7e3a8.chunk.js.map": "/marcLingPortFolio/static/js/2.c5f7e3a8.chunk.js.map",
+    "index.html": "/marcLingPortFolio/index.html",
+    "precache-manifest.e2f48ce610bd7c8d7e90433f7d67e7ed.js": "/marcLingPortFolio/precache-manifest.e2f48ce610bd7c8d7e90433f7d67e7ed.js",
+    "service-worker.js": "/marcLingPortFolio/service-worker.js",
+    "static/css/main.4ea2e134.chunk.css.map": "/marcLingPortFolio/static/css/main.4ea2e134.chunk.css.map",
+    "static/js/2.c5f7e3a8.chunk.js.LICENSE.txt": "/marcLingPortFolio/static/js/2.c5f7e3a8.chunk.js.LICENSE.txt",
+    "static/media/frieza.png": "/marcLingPortFolio/static/media/frieza.246ab536.png",
+    "static/media/icon_globe.png": "/marcLingPortFolio/static/media/icon_globe.0b2ed311.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f630245b.js",
+    "static/js/2.c5f7e3a8.chunk.js",
+    "static/css/main.4ea2e134.chunk.css",
+    "static/js/main.319b423f.chunk.js"
+  ]
+}
