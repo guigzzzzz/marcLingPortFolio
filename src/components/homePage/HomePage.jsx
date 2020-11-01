@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../header/Header'
 import background from '../../images/frieza.png'
-import './homePage.css'
+import './homePage.scss'
 function HomePage() {
     return(
         <div className="homePage_container">
